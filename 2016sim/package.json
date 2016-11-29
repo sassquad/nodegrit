@@ -4,8 +4,14 @@
   "description": "A simulator of the year 2016",
   "main": "app.js",
   "scripts": {
+  	"start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stephen Scott",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+  	"chalk": "^1.1.3",
+  	"figlet": "^1.1.2",
+  	"random-int": "^1.0.0"
+  }
 }
